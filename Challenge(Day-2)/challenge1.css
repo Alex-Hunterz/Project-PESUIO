@@ -1,0 +1,17 @@
+* {
+  color: #000;
+  background-color: #fff;
+  font-style: sans-serif;
+  /* font-size: 12px; */
+  padding: 0rem;
+}
+
+.html > h2 {
+  color: grey;
+}
+
+blockquote > p {
+  background-color: rgb(228, 226, 226);
+  overflow-x: scroll;
+  padding: 0.5rem;
+}

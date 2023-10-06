@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.9rem;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  margin: 5rem 0;
+  width: 550px;
+}
+
+/*.container > header {
+  border: 1px solid red;
+  margin: 3rem; 
+On removing this my website became alright
+this added to the 5 rem and made the margin 8 rem in total.
+}*/
+
+.container > header > p {
+  color: blueviolet;
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: 0.2rem;
+}
+
+.container > header > h1 {
+  font-size: 2rem;
+}
+
+.container > header > img {
+  width: 100%;
+  margin: 0.5rem 0;
+  object-fit: cover;
+  height: 200px;
+  border-radius: 10px;
+}
+
+section {
+  margin: 0.8rem 0;
+  /* width: 100%; NOT required*/
+}
+
+section h2 {
+  font-size: 1.5rem;
+}
+
+section p {
+  color: #444;
+  width: 100%;
+}
+
+.details {
+  border: 1px solid #44444444;
+  background-color: #eee;
+  border-radius: 0.8rem;
+  padding: 1rem;
+  margin: 0.5rem 0;
+}
+
+.details h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.details > ul {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+form h2 {
+  font-size: 1.5rem;
+}
+
+form .two {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+form .two > .one {
+  display: flex;
+  /* grid-template-columns: 1fr 1fr; */
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.one > label {
+  /* display: flex;
+  align-items: center; if you want to have the labels and input fields all in a line*/
+  font-size: 0.8rem;
+  color: #444;
+}
+
+.one > input {
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.tac {
+  margin: 1rem 0;
+}
+
+.tac > a {
+  color: blueviolet;
+}
+
+form button {
+  background-color: blueviolet;
+  color: #fff;
+  width: 100%;
+  font-family: "Poppins";
+  border: 0;
+  padding: 0.5rem 0;
+  font-size: 1.2rem;
+  border-radius: 5px;
+}
+
+form button:hover {
+  background-color: rgb(0, 68, 255);
+  cursor: pointer;
+  font-size: 1.4rem;
+}
